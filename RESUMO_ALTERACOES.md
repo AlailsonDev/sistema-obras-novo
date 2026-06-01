@@ -198,7 +198,7 @@ BATCH_SIZE: 20,  // Aumentar de 10 para 20
 
 ### Teste 1: Verificar filtro está ativo
 
-1. Abra http://localhost:5018
+1. Abra http://localhost:5030
 2. Verifique quantas obras aparecem
 3. Ative `MODO_TESTE_SEM_FILTRO: true` no config.js
 4. Recarregue a página
@@ -310,7 +310,7 @@ BATCH_SIZE: 20,  // Aumentar de 10 para 20
 - [ ] Verificar Node.js instalado (`node --version`)
 - [ ] Revisar `config.js` conforme necessidade
 - [ ] Iniciar proxy (`node proxy.js`)
-- [ ] Acessar http://localhost:5018
+- [ ] Acessar http://localhost:5030
 - [ ] Verificar obras exibidas
 - [ ] Testar modo debug
 - [ ] Testar modo teste (ver todas as obras)

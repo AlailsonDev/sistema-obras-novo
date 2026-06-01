@@ -37,7 +37,7 @@ A coleta leva alguns minutos dependendo do número de obras. Você verá uma bar
 
 ```bash
 node proxy.js
-# Acesse: http://localhost:5018
+# Acesse: http://localhost:5030
 ```
 
 O proxy vai detectar o `dados_mock.json` automaticamente e exibir no terminal:

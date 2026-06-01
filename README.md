@@ -81,7 +81,7 @@ O sistema agora faz requisições adicionais para buscar instrumentos jurídicos
    node proxy.js
    ```
 
-2. **Acesse**: http://localhost:5018
+2. **Acesse**: http://localhost:5030
 
 3. **Verifique**: As obras exibidas devem ser apenas da Prefeitura Municipal
 

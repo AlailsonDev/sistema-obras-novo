@@ -358,7 +358,7 @@ if (btnExcel) btnExcel.addEventListener("click", handleExportarExcel);
 async function init() {
   try {
     if (location.protocol === "file:") {
-      throw new Error("Abra via http://localhost:5018 (execute: node proxy.js)");
+      throw new Error("Abra via http://localhost:5030 (execute: node proxy.js)");
     }
     todasObras = await buscarObras();
     popularSituacoes();

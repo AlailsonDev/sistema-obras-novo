@@ -1,0 +1,14 @@
+{
+  "name": "portal-obras-pmjg",
+  "version": "2.0.0",
+  "description": "Portal de Obras Públicas de Jaboatão dos Guararapes",
+  "main": "proxy.js",
+  "scripts": {
+    "start": "node proxy.js",
+    "coletar": "node coletar_dados.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}

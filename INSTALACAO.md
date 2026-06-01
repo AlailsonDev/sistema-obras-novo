@@ -51,13 +51,13 @@ node proxy.js
 
 Você verá:
 ```
-✅  http://localhost:3000
-🔍  Debug: http://localhost:3000/debug?e=Remessa_Obra
+✅  http://localhost:5018
+🔍  Debug: http://localhost:5018/debug?e=Remessa_Obra
 ```
 
 ### 4. **Acesse no navegador**
 
-Abra: **http://localhost:3000**
+Abra: **http://localhost:5018**
 
 ---
 
@@ -221,7 +221,7 @@ SUBUNIDADES_EXCLUIDAS: [
    - Solução: Ative `DEBUG_MODE: true` e verifique os logs
 
 3. **API offline**
-   - Solução: Teste em http://localhost:3000/debug
+   - Solução: Teste em http://localhost:5018/debug
 
 ### Problema: "Aparecendo obras de outros órgãos"
 

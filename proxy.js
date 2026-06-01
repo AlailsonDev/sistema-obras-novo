@@ -17,7 +17,7 @@ const url    = require("url");
 const fs     = require("fs");
 const path   = require("path");
 
-const PORT        = 3000;
+const PORT        = process.env.PORT || 5018;
 const TCEPE_BASE  = "https://sistemas.tcepe.tc.br:443/DadosAbertos";
 const MOCK_FILE   = path.join(__dirname, "dados_mock.json");
 

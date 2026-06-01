@@ -10,7 +10,7 @@
  *   node coletar_dados.js
  *
  * Parâmetros opcionais (variáveis de ambiente):
- *   PROXY_URL=http://localhost:3000   URL base do proxy  (padrão: http://localhost:3000)
+ *   PROXY_URL=http://localhost:5018   URL base do proxy  (padrão: http://localhost:5018)
  *   BATCH_SIZE=10                     Obras por lote     (padrão: 10)
  *   OUTPUT=dados_mock.json            Arquivo de saída   (padrão: dados_mock.json)
  *
@@ -24,7 +24,7 @@ const https = require("https");
 const fs    = require("fs");
 const url   = require("url");
 
-const PROXY_URL  = (process.env.PROXY_URL  || "http://localhost:3000").replace(/\/$/, "");
+const PROXY_URL  = (process.env.PROXY_URL  || "http://localhost:5018").replace(/\/$/, "");
 const BATCH_SIZE = parseInt(process.env.BATCH_SIZE || "10", 10);
 const OUTPUT     = process.env.OUTPUT || "dados_mock.json";
 const MUNICIPIO  = "P083";
@@ -262,7 +262,7 @@ async function coletar() {
   console.log(`║  Tamanho       : ${(kb + " KB").padEnd(43)}║`);
   console.log(`║  Coletado em   : ${new Date().toLocaleString("pt-BR").padEnd(43)}║`);
   console.log("╚══════════════════════════════════════════════════════════════╝\n");
-  console.log("  Próximo passo: acesse http://localhost:3000 — o portal usará");
+  console.log("  Próximo passo: acesse http://localhost:5018 — o portal usará");
   console.log(`  os dados de "${OUTPUT}" até você rodar este script novamente.\n`);
 }
 
